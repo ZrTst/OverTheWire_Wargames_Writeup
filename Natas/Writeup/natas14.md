@@ -16,23 +16,23 @@ The user inputs are enclosed in double quotes (`"`) and directly embedded into t
 To bypass the login restriction, we can perform an authentication bypass attack. In SQL, the `OR` operator evaluates to true if either condition is true. If we can manipulate the query logic so that the `WHERE` clause always returns true, the database will return the first record found (usually the administrative or specified account), authorizing the login session regardless of the password supplied.
 
 ### Payload Construction:
-By inputting the following string into the `username` field:
+By inputting the following string into the `username` field (incorporating a SQL comment character `#` to truncate the remainder of the backend query):
 ```sql
-natas15" or "1"="1
+natas15" or "1"="1" #
 ```
-And leaving the `password` field empty or arbitrary, the backend SQL statement expands into:
+And leaving the `password` field arbitrary, the backend SQL statement expands into:
 ```sql
-SELECT * from users where username="natas15" and password="" or "1"="1"
+SELECT * from users where username="natas15" or "1"="1" #" and password="..."
 ```
 
 ### Logical Breakdown:
-1. The database first evaluates `username="natas15" and password=""`. This returns `False` because the password doesn't match.
-2. Next, the database evaluates `[False] OR "1"="1"`. Since `"1"="1"` is a tautology (always `True`), the entire expression evaluates to `True`.
-3. The server interprets this as a valid query matching a user record and grants access.
+1. The database processes the criteria up to the `#` symbol; everything following it is treated as a comment and discarded by the SQL parser.
+2. The remaining active expression becomes `username="natas15" OR "1"="1"`.
+3. Since `"1"="1"` is a tautology (always `True`), the `OR` condition forces the entire `WHERE` clause to evaluate to `True`, bypassing the password validation layer entirely.
 
 ### Step-by-step Execution:
 1. Access the challenge login page.
-2. In the **Username** input box, enter the crafted payload: `natas15" or "1"="1`.
+2. In the **Username** input box, enter the crafted payload: `natas15" or "1"="1 #`.
 3. Leave the **Password** field empty or input any dummy text.
 4. Click the **Login** button.
 
