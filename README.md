@@ -1,7 +1,7 @@
 # 🛡️ OverTheWire: Natas Wargame Writeups & Credentials
 
-![Status](https://shields.io)
-![Category](https://shields.io)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Category](https://img.shields.io/badge/category-documentation-blue)
 
 > 📌 **Project Status**: Actively maintaining Natas level writeups, analyzing vulnerabilities (0-20+), and documenting exploitation techniques.
 
@@ -9,17 +9,15 @@
 
 ## 🎯 Progress Dashboard (20/34 Levels)
 
-## 🎯 Progress Dashboard (20/34 Levels Mastered)
-
 | Level Range | Status | Key Security Concepts & Vulnerabilities |
 | :--- | :---: | :--- |
-| **00 - 10** | 🟢 Done | Information Disclosure / Source Code Auditing / XOR Crypto / Frontend Flaws |
-| **11 - 15** | 🟢 Done | Arbitrary File Inclusion (LFI) / Blind SQLi / Session Manipulation |
-| **16 - 20** | 🟢 Done | Command Injection / Advanced Session Hijacking / Server-Side State Injection |
+| **00 - 10** | 🟢 Completed | Information Disclosure / Source Code Auditing / XOR Crypto / Frontend Flaws |
+| **11 - 15** | 🟢 Completed | Arbitrary File Inclusion (LFI) / Blind SQLi / Session Manipulation |
+| **16 - 20** | 🟢 Completed | Command Injection / Advanced Session Hijacking / Server-Side State Injection |
 | **21 - 25** | 🟡 Active | PHP Object Injection / Directory Traversal Bypasses / Log Injection |
-| **26 - 27** | 🔵 Planned | Object Serialization Exploits / Race Conditions / Dual-Query Blind Appends |
-| **28 - 30** | 🪓 Planned | Advanced SQLi (Byte Manipulation) / Information Leak via String Truncation |
-| **31 - 34** | 💀 Hardcore | Complex Code Auditing / Node.js & Advanced Python Exploitation / Final Bosses |
+| **26 - 27** | 🔵 Incomplete | Object Serialization Exploits / Race Conditions / Dual-Query Blind Appends |
+| **28 - 30** | 🔵 Incomplete | Advanced SQLi (Byte Manipulation) / Information Leak via String Truncation |
+| **31 - 34** | 🔵 Incomplete | Complex Code Auditing / Node.js & Advanced Python Exploitation / Final Bosses |
 
 ---
 
@@ -35,11 +33,9 @@
 
 ```text
 ├── Natas/
-│   ├── natas15/
-│   │   ├── writeup.md    # Detailed RCA & remediation
-│   │   └── exploit.py    # Custom binary search SQLi
-│   ├── natas18/
-│   │   └── ...
+│   ├── Writeup/
+│   │   
+│   ├── Automation scripts
 └── README.md
 ```
 
