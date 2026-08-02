@@ -3,7 +3,7 @@
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![Category](https://img.shields.io/badge/Category-Documentation-blue)
 
-> 📌 **Project Status**: Actively maintaining Natas level writeups, analyzing vulnerabilities (0-20+), and documenting exploitation techniques.
+> 📌 **Project Status**: Actively maintaining Natas level writeups, analyzing vulnerabilities (0-34), and documenting exploitation techniques.
 
 ---
 
@@ -33,9 +33,8 @@
 
 ```text
 ├── Natas/
+|   ├── Scripts/
 │   ├── Writeup/
-│   │   
-│   ├── Automation scripts
 └── README.md
 ```
 
