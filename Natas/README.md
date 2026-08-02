@@ -33,7 +33,7 @@
 
 ```text
 ├── Natas/
-|   ├── Scripts/
+│   ├── Scripts/
 │   ├── Writeup/
 └── README.md
 ```
