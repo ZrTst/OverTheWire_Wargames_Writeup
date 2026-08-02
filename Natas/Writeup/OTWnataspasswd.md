@@ -18,3 +18,10 @@
 * `natas15`: `GB6USCJYJjwLyYhZUNkE1NwDueiTow6g`
 * `natas16`: `Xm6XEeRN3zsGjRDqBPmuqAVV65k7e3Gb`
 * `natas17`: `KLdAM3VZux8o6TbkbhuaG5KtYjI77tfx`
+* `natas18`: `fDGn2A6Gsc0BUp3bZw0RNXpg0PZt40op`
+* `natas19`: `qvwtMqAcVSBlf7HE3sw9pljhqqPF9MMT`
+* `natas20`: `slOKYGsjlJhaqKliGvrgWAzln0JyrWao`
+* `natas21`: `7meHZ1l2zPoK2v1qfTUxq4Ydfja4UlmU`
+* `natas22`: `964laB0r7TuDqJj5b3HFtwsQoc0GhjBF`
+* `natas23`: `CH1OBxJy8uAxMM15Nx6VXSMwcJbBbnS5`
+* `natas24`: `shlL4BvOtawNCd81dwdKRHFzmTEjYYQX`
