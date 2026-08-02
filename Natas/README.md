@@ -14,8 +14,8 @@
 | **00 - 10** | 🟢 Completed | Information Disclosure / Source Code Auditing / XOR Crypto / Frontend Flaws |
 | **11 - 15** | 🟢 Completed | Arbitrary File Inclusion (LFI) / Blind SQLi / Session Manipulation |
 | **16 - 20** | 🟢 Completed | Command Injection / Advanced Session Hijacking / Server-Side State Injection |
-| **21 - 25** | 🟡 Active | PHP Object Injection / Directory Traversal Bypasses / Log Injection |
-| **26 - 27** | 🔵 Incomplete | Object Serialization Exploits / Race Conditions / Dual-Query Blind Appends |
+| **21 - 25** | 🟢 Completed | PHP Object Injection / Directory Traversal Bypasses / Log Injection |
+| **26 - 27** | 🟡 Active | Object Serialization Exploits / Race Conditions / Dual-Query Blind Appends |
 | **28 - 30** | 🔵 Incomplete | Advanced SQLi (Byte Manipulation) / Information Leak via String Truncation |
 | **31 - 34** | 🔵 Incomplete | Complex Code Auditing / Node.js & Advanced Python Exploitation / Final Bosses |
 
