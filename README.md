@@ -1,7 +1,7 @@
 # 🛡️ OverTheWire: Natas Wargame Writeups & Credentials
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Category](https://img.shields.io/badge/category-documentation-blue)
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
+![Category](https://img.shields.io/badge/Category-Documentation-blue)
 
 > 📌 **Project Status**: Actively maintaining Natas level writeups, analyzing vulnerabilities (0-20+), and documenting exploitation techniques.
 
