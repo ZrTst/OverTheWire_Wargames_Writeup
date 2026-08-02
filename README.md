@@ -1,6 +1,6 @@
 # 🎮 OverTheWire Wargames Complete Writeups & Automation
 
-![Repo Size](https://img.shields.io/github/repo-size/username/repository?style=for-the-badge&color=2E3440&labelColor=1A1C23)
+![Repo Size](https://img.shields.io/github/repo-size/ZrTst/OverTheWire_Wargames_Writeup?style=for-the-badge&color=2E3440&labelColor=1A1C23)
 ![Last Commit](https://img.shields.io/github/last-commit/username/repository?style=for-the-badge&color=BF616A&labelColor=1A1C23)
 ![Top Language](https://img.shields.io/github/languages/top/username/repository?style=for-the-badge&color=EBCB8B&labelColor=1A1C23)
 ![License](https://img.shields.io/github/license/username/repository?style=for-the-badge&color=a3be8c)
