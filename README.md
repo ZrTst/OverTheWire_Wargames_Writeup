@@ -14,7 +14,7 @@ This repository is structured as a **Monorepo**. Each wargame series has its own
 
 | Wargame | Core Security Domain | Current Progress | Documentation Link |
 | :--- | :--- | :--- | :--- |
-| **Natas** | Web Application Security | 🟢 20 / 34 | [Go to Natas Writeups ➔](./Natas/README.md) |
+| **Natas** | Web Application Security | 🟢 25 / 34 | [Go to Natas Writeups ➔](./Natas/README.md) |
 | **Bandit** | Linux CLI Basics & System Security | ⚪ ⏳ Pending | [Go to Bandit Writeups ➔](./Bandit/README.md) |
 
 *(Note: As I complete other series, corresponding subfolders will be created, and this navigation table will be updated simultaneously.)*
