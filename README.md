@@ -16,8 +16,6 @@ This repository is structured as a **Monorepo**. Each wargame series has its own
 | :--- | :--- | :--- | :--- |
 | **Natas** | Web Application Security | 🟢 20 / 34 | [Go to Natas Writeups ➔](./Natas/README.md) |
 | **Bandit** | Linux CLI Basics & System Security | ⚪ ⏳ Pending | [Go to Bandit Writeups ➔](./Bandit/README.md) |
-| **Leviathan** | Linux Privilege Escalation & Binary Exploitation | ⚪ ⏳ Pending | [Go to Leviathan Writeups ➔](./Leviathan/README.md) |
-| **Krypton** | Classical Cryptography & Cryptanalysis | ⚪ ⏳ Pending | [Go to Krypton Writeups ➔](./Krypton/README.md) |
 
 *(Note: As I complete other series, corresponding subfolders will be created, and this navigation table will be updated simultaneously.)*
 
@@ -36,8 +34,6 @@ This repository is structured as a **Monorepo**. Each wargame series has its own
 ```text
 .
 ├── Bandit/               # Linux basics & system security (Planned)
-├── Leviathan/            # Privilege escalation & binary exploits (Planned)
-├── Krypton/              # Classical cryptography & cryptanalysis (Planned)
 └── Natas/                # Web application security (Current Focus)
     ├── Scripts/          # Automation exploit scripts (Python/Bash)
     ├── Writeup/          # Detailed vulnerability analysis & walkthroughs
