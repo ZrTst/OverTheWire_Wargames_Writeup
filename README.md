@@ -33,6 +33,7 @@ This repository is structured as a **Monorepo**. Each wargame series has its own
 
 ```text
 .
+├── README.md
 ├── Bandit/               # Linux basics & system security (Planned)
 └── Natas/                # Web application security (Current Focus)
     ├── Scripts/          # Automation exploit scripts (Python/Bash)
