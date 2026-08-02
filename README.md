@@ -1,8 +1,9 @@
 # 🎮 OverTheWire Wargames Complete Writeups & Automation
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/username/repository)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/username/repository)
-![GitHub Top Language](https://img.shields.io/github/languages/top/username/repository)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/username/repository?style=for-the-badge&color=2e3440)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/username/repository?style=for-the-badge&color=bf616a)
+![GitHub Top Language](https://img.shields.io/github/languages/top/username/repository?style=for-the-badge&color=ebcb8b)
+![License](https://img.shields.io/github/license/username/repository?style=for-the-badge&color=a3be8c)
 
 Welcome to my repository featuring complete writeups and automation exploit scripts for various OverTheWire cyber security wargames. This project focuses on pure, hand-crafted exploit development, rejecting blind reliance on automated tools. The goal is to deeply dissect the core mechanisms of Web Security, System Security, and Reverse Engineering.
 
