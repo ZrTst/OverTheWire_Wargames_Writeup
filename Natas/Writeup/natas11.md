@@ -63,7 +63,7 @@ echo "Forged Cookie: " . $payload_cookie;
 ```
 **Execution Output:**
 ```text
-Forged Cookie: EGAgHwQ1IxYYMSQYGSZxTUk7NgRJbnEVDCE8GwQwcU1JYTURDSQ1EUk/
+Forged Cookie: MGg7CgAxORgYPTwXKTAlSFA7NgRJbnEVDCE8GwQwcU1JYTURDSQ1EUk/
 ```
 
 ### Step-by-step Execution:
