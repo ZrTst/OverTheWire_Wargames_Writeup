@@ -3,7 +3,6 @@
 ![Repo Size](https://img.shields.io/github/repo-size/ZrTst/OverTheWire_Wargames_Writeup?style=for-the-badge&color=2E3440&labelColor=1A1C23)
 ![Last Commit](https://img.shields.io/github/last-commit/ZrTst/OverTheWire_Wargames_Writeup?style=for-the-badge&color=BF616A&labelColor=1A1C23)
 ![Top Language](https://img.shields.io/github/languages/top/ZrTst/OverTheWire_Wargames_Writeup?style=for-the-badge&color=EBCB8B&labelColor=1A1C23)
-![License](https://img.shields.io/github/license/ZrTst/OverTheWire_Wargames_Writeup?style=for-the-badge&color=a3be8c)
 
 Welcome to my repository featuring complete writeups and automation exploit scripts for various OverTheWire cyber security wargames. This project focuses on pure, hand-crafted exploit development, rejecting blind reliance on automated tools. The goal is to deeply dissect the core mechanisms of Web Security, System Security, and Reverse Engineering.
 
